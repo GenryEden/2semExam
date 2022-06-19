@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+// напишите функцию, которая получает на вход два слова.
+// Необходимо, чтобы подпрограммая возвращала только те буквы слов, которые встречаются в одном слове, но не в обоих
 namespace eks
 {
     class Program

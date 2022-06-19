@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.IO;
 
+// возвращает True, если эти папки содержат одинаковые файл как по имени, так и по количеству
 namespace Training1
 {
     class Program
