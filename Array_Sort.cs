@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
-
+// подпрограмма получает на вход ступенчатый массив. Необходимо, чтобы она возвращала измененный ступенчатый массив,
+// в котором вложенные массивы упорядочены по их длине 
 namespace ConsoleApp1
 {
     class Program
@@ -17,7 +18,7 @@ namespace ConsoleApp1
             arr[5] = new int[2];
             arr[6] = new int[4];
             Sort(arr);
-            foreach(int[] a in arr)
+            foreach(int[] a in arr)                                                                                                П
             {
                 Console.WriteLine(a.Length);
             }

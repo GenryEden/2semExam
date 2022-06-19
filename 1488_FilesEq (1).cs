@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.IO;
-
+// возвращает True, если эти папки содержат одинаковые файлы как по имени, так и по количеству
 namespace BiggerNumber
 {
     class Program

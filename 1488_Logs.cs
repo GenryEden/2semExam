@@ -4,7 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.IO;
-
+// в текстовом файле содержится лог ошибок от различных датчиков.
+// записи сделаны в следующем формате
+// функция получает имя файла и возвращает упорядоченный по алфавиту список датчиков, в которых были обнаружены ошибки
 namespace BiggerNumber
 {
     class Program
